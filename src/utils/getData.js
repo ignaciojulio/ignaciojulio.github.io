@@ -1,4 +1,4 @@
-const API = 'https://randomuser.me/api/';
+const API = '../assets/icon/logo_white.svg';
 
 const getData = async (id) => {
   const apiURl = id ? `${API}${id}` : API;

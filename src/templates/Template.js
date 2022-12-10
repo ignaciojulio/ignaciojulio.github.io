@@ -1,7 +1,7 @@
 const Template = async () => {
     const view = `
             <figure>
-                <img src="./assets/icon/logo_white.svg" alt="logo">
+                <img src="../src/assets/icon/logo_white.svg" alt="logo">
                 <h1>Ignacio</h1>
             </figure>
             <nav>

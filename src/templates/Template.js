@@ -1,8 +1,14 @@
+import logoWhite from "../assets/icon/logo_white.svg"
+import picture from "../assets/images/picture_principal.png"
+
 const Template = async () => {
     const view = `
             <figure>
-                <img src="assets/icon/logo_white.svg" alt="logo">
+                <img src="${logoWhite}" alt="logo">
                 <h1>Ignacio</h1>
+            </figure>
+            <figure class="foto">
+                <img class="foto" src="${picture}" alt="picture">
             </figure>
             <nav>
                 <ul>
@@ -17,7 +23,7 @@ const Template = async () => {
                         <option value="日本語">日本語</option>
                     </div>
                 </ul>
-            </nav>
+            </nav>  
   `;
     return view;
 };

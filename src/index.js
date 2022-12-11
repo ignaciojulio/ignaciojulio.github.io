@@ -1,6 +1,5 @@
 import Template from './templates/Template.js';
-import './styles/main.css'
-import './styles/var.styl';
+import './styles/main.css';
 
 (async function header() {
   const header = null || document.querySelector('header');

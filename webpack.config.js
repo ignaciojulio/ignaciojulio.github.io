@@ -8,6 +8,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js',
+        assetModuleFilename: 'assets/images/[hash][ext][query]',
     },
     resolve: {
         extensions: ['.js', '.css']
@@ -27,7 +28,11 @@ module.exports = {
                     'css-loader',
                     'stylus-loader'
                 ],
-            }
+            },
+            {
+                test: /\.svg|.png/,
+                type: "asset/resource"
+            },
         ]
     },
     plugins: [

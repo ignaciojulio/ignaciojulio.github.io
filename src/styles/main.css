@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Inter:wght@300;400;500&family=Open+Sans:wght@300;400;500&family=Quicksand:wght@300;400;500&family=Roboto:wght@300;400;500&family=Urbanist:wght@300;400;500&display=swap');
 
+
 :root {
     --font-roboto: Roboto;
     --font-fira-code: "Fira Code";
@@ -87,4 +88,9 @@ li{
 
 option{
     background-color: var(--background);
+}
+
+.foto{
+    margin: 0;
+    width: 100%;
 }

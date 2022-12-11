@@ -1,5 +1,5 @@
-import logoWhite from "../assets/icon/logo_white.svg"
-import picture from "../assets/images/picture_principal.png"
+import logoWhite from "@icon/logo_white.svg"
+import picture from "@images/picture_principal.png"
 
 const Template = async () => {
     const view = `

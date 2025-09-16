@@ -1,11 +1,11 @@
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig = {
+module.exports = {
   output: 'export',
-  
-  // Asegura que las URLs terminen en barra inclinada
+  basePath: '/ignaciojulio.github.io',  // Asegúrate de que este sea tu basePath correcto
   trailingSlash: true,
 }
+
 
 module.exports = nextConfig;

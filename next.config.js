@@ -3,9 +3,6 @@
  */
 module.exports = {
   output: 'export',
-  basePath: '/ignaciojulio.github.io',  // Asegúrate de que este sea tu basePath correcto
+  basePath: '/Dev Proyectos/ignaciojulio.github.io/out', // Esto debe coincidir con tu repositorio de GitHub Pages
   trailingSlash: true,
 }
-
-
-module.exports = nextConfig;

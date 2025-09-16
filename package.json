@@ -1,0 +1,24 @@
+{
+  "name": "ignaciojulio.github.io",
+  "version": "1.0.0",
+  "description": "Portafolio",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "gh-pages -d out"
+  },
+  "keywords": [],
+  "author": "Ignacio Javier Julio Posada <ignacioj.julio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
